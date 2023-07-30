@@ -1,9 +1,9 @@
 import express from 'express';
 import 'dotenv/config';
 import cors from 'cors';
-import { PORT } from './utils/constants.js';
-import { userRouter } from './routers/users.js';
-import { tasksRouter } from './routers/tasks.js';
+import { PORT } from './src/utils/constants.js';
+import { userRouter } from './src/routers/users.js';
+import { tasksRouter } from './src/routers/tasks.js';
 const app = express();
 
 app.use(express.json());
