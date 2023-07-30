@@ -14,7 +14,9 @@ app.use(tasksRouter);
 app.get('/', (req, res) => {
   try {
     res.send('Welcome');
-  } catch (error) {}
+  } catch (error) {
+    res.send(error.message);
+  }
 });
 
 app.listen(PORT, () => console.log('Server listening on port: ' + PORT));
