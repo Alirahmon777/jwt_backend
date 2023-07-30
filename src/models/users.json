@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "name": "John",
+    "lastName": "Doe",
+    "email": "johndoe@gmail.com",
+    "gender": "male",
+    "isMarried": "married",
+    "age": "18",
+    "password": "$2b$10$Pnkrc8VMIFXPV1FffKl7zOr0.93D5XRbYCJlAftTVAcxoqipkd7kG",
+    "tasks": [
+      {
+        "id": 1,
+        "title": "Read",
+        "completed": false,
+        "body": "book"
+      },
+      {
+        "id": 2,
+        "title": "Do Homework",
+        "completed": false,
+        "body": "math"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Jane",
+    "lastName": "Bob",
+    "email": "jane@gmail.com",
+    "gender": "female",
+    "isMarried": "married",
+    "age": "19",
+    "password": "$2b$10$Pnkrc8VMIFXPV1FffKl7zOr0.93D5XRbYCJlAftTVAcxoqipkd7kG"
+  }
+]
