@@ -13,9 +13,9 @@ app.use(tasksRouter);
 
 app.get('/', (req, res) => {
   try {
-    res.send('Welcome');
+    res.status(200).send('Welcome');
   } catch (error) {
-    res.send(error.message);
+    res.status(500).send(error.message);
   }
 });
 
