@@ -5,20 +5,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node ./index.js",
-    "dev": "nodemon ./index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Alirahmon777/jwt_backend"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Alirahmon777/jwt_backend/issues"
-  },
-  "homepage": "https://github.com/Alirahmon777/jwt_backend#readme",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "cors": "^2.8.5",
