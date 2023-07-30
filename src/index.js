@@ -11,4 +11,10 @@ app.use(cors());
 app.use(userRouter);
 app.use(tasksRouter);
 
+app.get('/', (req, res) => {
+  try {
+    res.send('Welcome');
+  } catch (error) {}
+});
+
 app.listen(PORT, () => console.log('Server listening on port: ' + PORT));
